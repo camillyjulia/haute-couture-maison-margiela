@@ -1,0 +1,152 @@
+:root {
+    --cor-base: #f8f7f1;
+    --cor-secundaria: #AE989E;
+    --rosa: #ee94aa;
+    --azul: #80A4ED;
+    --roxo: #CBBAED;
+    --preto: #000000;
+    --branco: #ffffff;
+    --fonte-titulos: 'Tangerine', cursive;
+    --fonte-textos: 'Forum', serif;
+}
+
+body {
+    background-color: var(--cor-base);
+    color: var(--preto);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container__titulo {
+    font-family: var(--fonte-titulos);
+    font-size: 85px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0.5em 0 0.1em 0;
+}
+
+.container__subtitulo {
+    font-family: var(--fonte-textos);
+    font-size: 33px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.container__imagem {
+    width: 25%;
+    margin: 4em 0;
+}
+
+.secundario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    margin: 0 5em;
+}
+
+.container__caixa {
+    padding: 0 5em 0 0;
+}
+
+.container__inspiracao {
+    font-family: var(--fonte-titulos);
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.inspiracao__texto {
+    font-family: var(--fonte-textos);
+    font-size: 18px;
+    text-align: justify;
+}
+
+.container__maquiagem {
+    font-family: var(--fonte-titulos);
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.maquiagem__texto {
+    font-family: var(--fonte-textos);
+    font-size: 18px;
+    text-align: justify;
+}
+
+.segunda {
+    width: 30%;
+    margin: 0 3.3em 0 0;
+}
+
+.segunda__caixa {
+    padding: 0;
+}
+
+.container__pecas {
+    font-family: var(--fonte-titulos);
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.pecas__texto {
+    font-family: var(--fonte-textos);
+    font-size: 18px;
+    text-align: justify;
+}
+
+.final {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 3em;
+}
+
+.container__grade {
+    width: 15%;
+    margin: 4em 0;
+}
+
+.ultimo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container__box {
+    text-align: center;
+    font-family: var(--fonte-titulos);
+    font-size: 60px;
+}
+
+.rodape {
+    text-align: center;
+    margin: 3em;
+}
+
+.rodape__lista {
+    font-family: var(--fonte-titulos);
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 3em;
+}
+
+.lista__links a {
+    color: var(--cor-secundaria);
+    text-decoration: none;
+}
+
+.lista__links a:hover {
+    color: var(--roxo);
+}
+
+.lista__links a:active {
+    color: var(--azul);
+}
